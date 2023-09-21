@@ -24,6 +24,12 @@ using namespace std;
 
 		return 0;
 	}
+	if (a == b) {
+
+		cout << "\nСторони не можуть бути однаковими" << endl;
+
+		return 0;
+	}
 
 	S = a * b;
 	P = 2 * (a + b);
